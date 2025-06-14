@@ -2,7 +2,7 @@ import type { Question, AnswerOption } from '@/types/quiz';
 
 const NUM_OPTIONS = 4;
 const NUM_QUESTIONS = 10;
-const MAX_MULTIPLIER = 12;
+const MAX_MULTIPLIER = 10;
 
 function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
